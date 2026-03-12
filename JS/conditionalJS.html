@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contitional statements in JS</title>
+</head>
+<body>
+    <script>
+        //JavaScript uses several types of conditional statements to execute different actions based on whether a condition is true or false. The main types include if, else, else if, the switch statement, and the ternary operator (? :). 
+        
+        //if condition 
+        //age validation for vote casting!
+        let age=23 ;
+        if(age >= 18) {
+            console.log(age + " is valid age of vote casting!");
+        }
+        // if ..... else --------
+        let myAge = 50 ;
+        if (myAge<18) {
+            console.log("not valid age");
+        }else{
+            console.log("valid age");
+        }
+
+        // switch.........   
+        let grade='A';
+
+        switch(grade){
+            case 'A' : result= "Frist division";
+            break;
+
+            case 'B' : result= "Second division" ;
+            break ;
+
+            case 'C' : result= "Third division" ;
+            break ;
+            default: result= "Fail" ;
+        }
+
+        console.log(result) ;
+        // if else if else ............
+
+        let marks = 55 ;
+
+        if (marks>= 60) {
+            console.log("First Grade");
+        } 
+        else if (marks<60 && marks>40) {
+            console.log("Second Grade");
+        }
+        else if (marks<40 && marks>=33) {
+            console.log("Third Grade");
+        }
+        else {
+            console.log("Fail");
+        }
+        
+    </script>
+</body>
+</html>
